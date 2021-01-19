@@ -15,7 +15,7 @@
 	
 	<a th:href="@{/add}" class="btn btn-primary btn-sm d-inline mb-3" >Add Task<a/>
 	<a th:href="@{/clear}" class="btn btn-warning btn-sm d-inline mb-3 float-right">Clear</a>
-	<p th:class="${todos.size()>0}?'d-none':'alert alert-success mt-3 col-5 float-md-none'">No tasks are pending , perhaps add some task.</p>
+	<p th:class="${todos.size()>0}?'d-none':'alert alert-success mt-3 col-5 float-md-none'">No tasks are pending , Add some task.</p>
 	<table th:class="${todos.size()>0}?'table table-bordered table-striped mu-3 ':'d-none'">
 		<thead class="thead-dark">
 			<tr>
